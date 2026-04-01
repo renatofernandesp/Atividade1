@@ -53,8 +53,22 @@ Asegure-se de que possui o Python >= 3.10 instalado. Crie sua Virtual Environmen
    Certifique-se de que o arquivo `.env` possua as chaves dos modelos devidamente provisionadas:
    ```env
    # Azure OpenAI (Exemplo)
-   AZURE_OPENAI_KEY="Sua-Chave-Acesso"
-   AZURE_OPENAI_ENDPOINT="Seu-Endpoint-Azure"
+# GPT-4o Mini
+AZURE_OPENAI_KEY="suachaveaqui"
+AZURE_OPENAI_ENDPOINT="https://seuendepointaqui"
+AZURE_OPENAI_CHAT_DEPLOYMENT="gpt-4o-mini"
+AZURE_OPENAI_API_VERSION="2025-01-01-preview"
+
+# GPT-5.4-nano
+NANO_API_KEY="suachaveaqui"
+NANO_ENDPOINT="https://seuendepointaqui"
+NANO_DEPLOYMENT="gpt-5.4-nano"
+NANO_API_VERSION="2024-12-01-preview"
+
+# Llama 4 Maverick 17B Instruct
+LLAMA_API_KEY="suachaveaqui"
+LLAMA_ENDPOINT="https://seuendepointaqui"
+LLAMA_DEPLOYMENT="Llama-4-Maverick-17B-128E-Instruct-FP8"
    ...
    ```
 
