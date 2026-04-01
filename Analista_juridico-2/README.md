@@ -71,11 +71,22 @@ pip install -r requirements.txt
 Existe um arquivo oculto chamado `.env` (se não existir, deve ser criado). Ele abrigará toda a ponte da OpenAI/Azure segura.
 ```env
 # ── Exemplo do arquivo .env ──
-AZURE_OPENAI_KEY=sua_chave_azure_aqui
-AZURE_OPENAI_ENDPOINT=https://seu-endpoint.openai.azure.com/
-AZURE_OPENAI_API_VERSION=2023-05-15
-AZURE_OPENAI_CHAT_DEPLOYMENT=gpt-4o-mini
-# Adicione credenciais do Nano e LLM caso possua.
+# GPT-4o Mini
+AZURE_OPENAI_KEY="suachaveaqui"
+AZURE_OPENAI_ENDPOINT="https://seuendepointaqui"
+AZURE_OPENAI_CHAT_DEPLOYMENT="gpt-4o-mini"
+AZURE_OPENAI_API_VERSION="2025-01-01-preview"
+
+# GPT-5.4-nano
+NANO_API_KEY="suachaveaqui"
+NANO_ENDPOINT="https://seuendepointaqui"
+NANO_DEPLOYMENT="gpt-5.4-nano"
+NANO_API_VERSION="2024-12-01-preview"
+
+# Llama 4 Maverick 17B Instruct
+LLAMA_API_KEY="suachaveaqui"
+LLAMA_ENDPOINT="https://seuendepointaqui"
+LLAMA_DEPLOYMENT="Llama-4-Maverick-17B-128E-Instruct-FP8"
 ```
 
 ### 5. Iniciar o Aplicativo Local
