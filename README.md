@@ -1,4 +1,4 @@
-⚖️ JuridicalAI: Avaliação de Modelos de Linguagem em Contexto Jurídico
+⚖️Avaliação de Modelos de Linguagem em Contexto Jurídico
 Repositório destinado à Atividade 1 da disciplina Tópicos Avançados em Engenharia de Software e Sistemas de Informação I (T01). O projeto explora a capacidade de inferência de Large Language Models (LLMs) aplicados ao domínio do Direito, utilizando diferentes datasets e métricas de avaliação semântica.
 
 📂 Estrutura de Dados (Datasets)
